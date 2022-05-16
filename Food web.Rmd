@@ -1,0 +1,87 @@
+---
+title: "Food Web"
+author: "Laurene Pecuchet"
+date: '2022-05-16'
+output:
+  word_document: 
+  html_notebook: default
+  pdf_document: default
+  html_document:
+    df_print: paged
+editor_options:
+  chunk_output_type: console
+  markdown: 
+    wrap: 72
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r, include=FALSE}
+library(NetIndices)
+library(reshape2)
+library(igraph)
+
+library(ggplot2)
+library(ggrepel)
+
+## Food web
+fwname<-read.table("Data/foodweb_name.csv", header=T, sep=";")
+load("Data/fw_dem.RData")
+
+```
+
+## Demersal community and Food web (data preparation)
+
+### Metaweb
+The metaweb is originally from Planque, B., Primicerio, R., Michalsen, K., Aschan, M., Certain, G., Dalpadado, P., ... & Wiedmann, M. (2014). Who eats whom in the Barents Sea: a food web topology from plankton to whales: Ecological Archives E095‐124. Ecology, 95(5), 1430-1430 and modified version in Kortsch et al. 2019. It has been further updated using literature and diet data.
+
+```{r }
+
+fw_newi<-graph.adjacency(as.matrix(fw_new))
+spingc <- spinglass.community(fw_newi, spins = 3) ## Just for visual purpose, cluster the nodes based on links 
+trophind_qual<-round(TrophInd(fw_new),2)
+trophind_qual$species<-rownames(trophind_qual)
+set.seed(134)
+trophind_qual$xx<-runif(length(trophind_qual$species))+(spingc$membership*1.2) # for visual purpose, assign value along axis x
+trophind_qual[trophind_qual$TL<1.5,]$TL<-1.5 # for visual purpose (y-axis)
+
+## as pairwise list
+links<-reshape2::melt(as.matrix(fw_new))
+colnames(links)<-c("Resource","Consumer","link")
+
+links<-merge(links, trophind_qual, by.x="Consumer", by.y="species")
+links<-merge(links, trophind_qual, by.x="Resource", by.y="species")
+links<-subset(links, link>0)
+
+trophind_qual<-merge(trophind_qual, fwname[!duplicated(fwname[,c("GROUP","ABBREV_SIMPL","Phylum")]),], by.x="species", by.y="ABBREV_SIMPL", all.x=T, all.y=F)
+
+```
+
+This is the food web used in the study "Spatio-temporal turnover and
+drivers of bentho-demersal community and food web structure in a
+high-latitude marine ecosystem". Obs. Few pelagic/bentho-pelagic
+invertebrates and fish are still present in the metaweb because they are
+caught by the bottom trawl.
+Orange color represent benthic invertebrates, cyan color bentho-pelagic invertebrates, and orange fish
+For the list of each taxa see the taxa list in the supplementary material.
+
+```{r fig.cap= "Qualitative simplified demersal meta web" }
+ggplot()+
+  geom_segment(data=links, mapping=aes(x=xx.x, y=TL.x, xend=xx.y, yend=TL.y), size=0.1, col="grey80") +
+  geom_point(data=trophind_qual, aes(xx,TL, col=GROUP), size=1.5)+
+  scale_colour_manual( values = c("Benthos"="orange","Zooplankton"="cyan", "Fish"="blue", "Basal"="darkgrey","Mammals"="lightpink","Seabirds"="magenta")) +
+  geom_text_repel(data=trophind_qual[!trophind_qual$species%in%c("GAD_MOR", "MEL_AEG","PAR_CAM","CHI_OPI"),], aes(xx,TL, label=species), size=2)+
+  geom_label_repel(data=trophind_qual[trophind_qual$species%in%c("GAD_MOR", "MEL_AEG","PAR_CAM","CHI_OPI"),], aes(xx,TL, label=species), size=2)+
+   scale_y_continuous(breaks=c(1.5,2,3,4,5),labels=c("1", "2", "3","4","5"))+
+  theme_bw()+
+  theme(panel.border = element_blank(),
+        axis.title.x = element_blank(), axis.text.x = element_blank(),axis.ticks = element_blank(), legend.position = "none",
+        panel.grid.major.x = element_blank(),
+        panel.grid.minor.x = element_blank(),
+        axis.title.y = element_text())+
+  labs(y="Trophic level")
+
+```
