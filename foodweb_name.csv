@@ -1,0 +1,244 @@
+ABBREVIATION;ABBREV_SIMPL;TROPHOSPECIES_code;GROUP_withno;GROUP;GROUP.no;Trophospecies;Kingdom;Phylum;Class;Order;Family;Genus;Species;Surveys_name_matchorlower;Surveys_name_higher;lower_rank;higher_rank
+ACT_G_SP;ACT_G_SP;ACTINIARIA_G_SP;3_Benthos;Benthos;3;Actiniaria;Animalia;Cnidaria;Anthozoa;Actiniaria;NA;NA;NA;Actiniaria;;Order;
+AGO_CAT;AGO_CAT;AGONUS_CATAPHRACTUS;4_Fish;Fish;4;Agonus cataphractus;Animalia;Chordata;Actinopterygii;Scorpaeniformes;Agonidae;Agonus;cataphractus;Agonus cataphractus;;Species;
+ALL_ALL;ALL_ALL;ALLE_ALLE;5_Seabirds;Seabirds;5;Alle alle;Animalia;Chordata;Aves;Charadriiformes;Alcidae;Alle;alle;Alle alle;;Species;
+AMB_HYP;AMB_HYP;AMBLYRAJA_HYPERBOREA;4_Fish;Fish;4;Amblyraja hyperborea;Animalia;Chordata;Elasmobranchii;Rajiformes;Rajidae;Amblyraja;hyperborea;Amblyraja hyperborea;;Species;
+AMB_RAD;AMB_RAD;AMBLYRAJA_RADIATA;4_Fish;Fish;4;Amblyraja radiata;Animalia;Chordata;Elasmobranchii;Rajiformes;Rajidae;Amblyraja;radiata;Amblyraja radiata;;Species;
+AMM_SPP;AMM_SPP;AMMODYTES_SPP;4_Fish;Fish;4;Ammodytes;Animalia;Chordata;Actinopterygii;Perciformes;Ammodytidae;Ammodytes;NA;Ammodytes;;Genus;
+APH_GLA;AMPHI_SPP;APHERUSA_GLACIALIS;2_Zooplankton;Zooplankton;2;Apherusa glacialis;Animalia;Arthropoda;Malacostraca;Amphipoda;Calliopiidae;Apherusa;glacialis;Calliopiidae;Calliopiidae;Species;
+ARR_PHY;AMPHI_SPP;ARRHIS_PHYLLONYX;3_Benthos;Benthos;3;Arrhis phyllonyx;Animalia;Arthropoda;Malacostraca;Amphipoda;Oedicerotidae;Arrhis;phyllonyx;Arrhis phyllonyx;;Species;
+GAM_IND;AMPHI_SPP;GAMMARIDAE_INDET;3_Benthos;Benthos;3;Gammaridae;Animalia;Arthropoda;Malacostraca;Amphipoda;Gammaridae;NA;NA;Gammaridae;;Family;
+GAM_WIL;AMPHI_SPP;GAMMARUS_WILKITZKII;2_Zooplankton;Zooplankton;2;Gammarus wilkitzkii;Animalia;Arthropoda;Malacostraca;Amphipoda;Gammaridae;Gammarus;wilkitzkii;Gammarus wilkitzkii;Gammarus;Species;
+ANA_DEN;ANA_DEN;ANARHICHAS_DENTICULATUS;4_Fish;Fish;4;Anarhichas denticulatus;Animalia;Chordata;Actinopterygii;Perciformes;Anarhichadidae;Anarhichas;denticulatus;Anarhichas denticulatus;;Species;
+ANA_LUP;ANA_LUP;ANARHICHAS_LUPUS;4_Fish;Fish;4;Anarhichas lupus;Animalia;Chordata;Actinopterygii;Perciformes;Anarhichadidae;Anarhichas;lupus;Anarhichas lupus;;Species;
+ANA_MIN;ANA_MIN;ANARHICHAS_MINOR;4_Fish;Fish;4;Anarhichas minor;Animalia;Chordata;Actinopterygii;Perciformes;Anarhichadidae;Anarhichas;minor;Anarhichas minor;;Species;
+ANI_MED;ANI_MED;ANISARCHUS_MEDIUS;4_Fish;Fish;4;Anisarchus medius;Animalia;Chordata;Actinopterygii;Perciformes;Stichaeidae;Anisarchus;medius;Anisarchus medius;;Species;
+ANO_SPP;ANO_SPP;ANONYX_SPP;2_Zooplankton;Zooplankton;2;Anonyx;Animalia;Arthropoda;Malacostraca;Amphipoda;Uristidae;Anonyx;NA;NA;;Genus;
+APE_SPP;APE_SPP;;2_Zooplankton;Zooplankton;;;Animalia;Chordata;Appendicularia;;;;;;;;
+ARC_GLA;ARC_GLA;ARCTOGADUS_GLACIALIS;4_Fish;Fish;4;Arctogadus glacialis;Animalia;Chordata;Actinopterygii;Gadiformes;Gadidae;Arctogadus;glacialis;Arctogadus glacialis;;Species;
+ARC_RIS;ARC_RIS;ARCTOZENUS_RISSO;4_Fish;Fish;4;Arctozenus risso;Animalia;Chordata;Actinopterygii;Aulopiformes;Paralepididae;Arctozenus;risso;Arctozenus risso;;Species;
+ARG_SP;ARG_SP;ARGENTINA_SP;4_Fish;Fish;4;Argentina;Animalia;Chordata;Actinopterygii;Argentiniformes;Argentinidae;Argentina;NA;Argentina silus;Argentinidae;Genus;
+ART_ATL;ART_ATL;ARTEDIELLUS_ATLANTICUS;4_Fish;Fish;4;Artediellus atlanticus;Animalia;Chordata;Actinopterygii;Scorpaeniformes;Cottidae;Artediellus;atlanticus;Artediellus atlanticus;;Species;
+ASC_G_SP;ASC_G_SP;ASCIDIACEA_G_SP;3_Benthos;Benthos;3;Ascidiacea;Animalia;Chordata;Ascidiacea;NA;NA;NA;NA;Ascidiacea;;Class;
+AST_SP;AST_SP;ASTARTE_SP;3_Benthos;Benthos;3;Astarte;Animalia;Mollusca;Bivalvia;Carditida;Astartidae;Astarte;NA;Astarte;;Genus;
+AST_RUB;ASTE_SP;ASTERIAS_RUBENS;3_Benthos;Benthos;3;Asterias rubens;Animalia;Echinodermata;Asteroidea;Forcipulatida;Asteriidae;Asterias;rubens;Asteriidae;Asteriidae;Species;
+CRO_PAP;ASTE_SP;CROSSASTER_PAPPOSUS;3_Benthos;Benthos;3;Crossaster papposus;Animalia;Echinodermata;Asteroidea;Valvatida;Solasteridae;Crossaster;papposus;Crossaster papposus;Crossaster;Species;Genus
+CTE_CRI;ASTE_SP;CTENODISCUS_CRISPATUS;3_Benthos;Benthos;3;Ctenodiscus crispatus;Animalia;Echinodermata;Asteroidea;Paxillosida;Ctenodiscidae;Ctenodiscus;crispatus;Ctenodiscus crispatus;Ctenodiscidae;Species;Genus
+PON_TEN;ASTE_SP;PONTASTER_TENUISPINUS;3_Benthos;Benthos;3;Pontaster tenuispinus;Animalia;Echinodermata;Asteroidea;Notomyotida;Benthopectinidae;Pontaster;tenuispinus;Pontaster tenuispinus;;Species;
+URA_LIN;ASTE_SP;URASTERIAS_LINCKII;3_Benthos;Benthos;3;Urasterias lincki;Animalia;Echinodermata;Asteroidea;Forcipulatida;Asteriidae;Urasterias;lincki;Urasterias lincki;;Species;
+AUT_FLA;AUT_FLA;AUTOTHROPH_FLAGELLAT;1_Plankton;Basal;1;Autotroph flagellates;NA;NA;NA;NA;NA;NA;NA;NA;;NA;
+BAC_IND;BAC_IND;BACTERIA_INDET;1_Plankton;Basal;1;Bacteria indeterminated;NA;NA;NA;NA;NA;NA;NA;NA;;NA;
+BAL_ACU;BAL_ACU;BALAENOPTERA_ACUTOROSTRATA;6_Mammals;Mammals;6;Balaenoptera acutorostrata;Animalia;Chordata;Mammalia;Cetartiodactyla;Balaenopteridae;Balaenoptera;acutorostrata;NA;;Species;
+BAL_MUS;BAL_MUS;;6_Mammals;Mammals;6;Balaenoptera musculus;Animalia;Chordata;Mammalia;Cetartiodactyla;Balaenopteridae;Balaenoptera;musculus;NA;;Species;
+BAL_MYS;BAL_MYS;;6_Mammals;Mammals;6;Balaena mysticetus;Animalia;Chordata;Mammalia;Cetartiodactyla;Balaenidae;Balaena;mysticetus;NA;;Species;
+BAL_PHY;BAL_PHY;BALAENOPTERA_PHYSALUS;6_Mammals;Mammals;6;Balaenoptera physalus;Animalia;Chordata;Mammalia;Cetartiodactyla;Balaenopteridae;Balaenoptera;physalus;Balaenoptera physalus;;Species;
+BAL_SP;BAL_SP;BALANUS_SP;3_Benthos;Benthos;3;Balanus;Animalia;Arthropoda;Hexanauplia;Sessilia;Balanidae;Balanus;NA;Cirripedia;Cirripedia;Genus;
+BAT_GLA;BAT_GLA;BATHYARCA_GLACIALIS;3_Benthos;Benthos;3;Bathyarca glacialis;Animalia;Mollusca;Bivalvia;Arcida;Arcidae;Bathyarca;glacialis;Bathyarca glacialis;Bathyarca;Species;
+BAT_SPI;BAT_SPI;BATHYRAJA_SPINICAUDA;4_Fish;Fish;4;Bathyraja spinicauda;Animalia;Chordata;Elasmobranchii;Rajiformes;Arhynchobatidae;Bathyraja;spinicauda;Bathyraja spinicauda;;Species;
+BEN_GLA;BEN_GLA;BENTHOSEMA_GLACIALE;4_Fish;Fish;4;Benthosema glaciale;Animalia;Chordata;Actinopterygii;Myctophiformes;Myctophidae;Benthosema;glaciale;Benthosema glaciale;;Species;
+BEN_LAR;BEN_LAR;BENTHOS_LARVAE;3_Benthos;Benthos;3;Benthos larvae;Animalia;Chordata;NA;NA;NA;NA;NA;NA;;NA;
+BER_SP;BER_SP;BEROŠ_SP;2_Zooplankton;Zooplankton;2;Beroe;Animalia;Ctenophora;Nuda;Beroida;Beroidae;Beroe;NA;Beroe;;Genus;
+HIA_ARC;BIV_SP;;3_Benthos;Benthos;3;Hiatella arctica;Animalia;Mollusca;Bivalvia;Adapedonta;Hiatellidae;Hiatella;arctica;Hiatella;Hiatella;Species;
+MAC_SP;BIV_SP;MACOMA_SP;3_Benthos;Benthos;3;Macoma;Animalia;Mollusca;Bivalvia;Cardiida;Tellinidae;Macoma;NA;Macoma;;Genus;
+MEN_FER;BIV_SP;MENDICULA_FERRUGINOSA;3_Benthos;Benthos;3;Mendicula ferruginosa;Animalia;Mollusca;Bivalvia;Lucinida;Thyasiridae;Mendicula;ferruginosa;NA;NA;Species;
+MYA_TRU;BIV_SP;;3_Benthos;Benthos;3;Mya truncata;Animalia;Mollusca;Bivalvia;Myida;Myidae;Mya;truncata;Mya;Mya;Species;
+THY_GOU;BIV_SP;THYASIRA_GOULDI;3_Benthos;Benthos;3;Thyasira gouldi;Animalia;Mollusca;Bivalvia;Lucinida;Thyasiridae;Thyasira;gouldi;NA;;Species;
+YOL_SOL;BIV_SP;YOLDIELLA_SOLIDULA;3_Benthos;Benthos;3;Yoldiella solidula;Animalia;Mollusca;Bivalvia;Nuculanida;Yoldiidae;Yoldiella;solidula;Yoldiella;Yoldiella;Species;Genus
+BOL_INF;BOL_INF;BOLINOPSIS_INFUNDIBULUM;2_Zooplankton;Zooplankton;2;Bolinopsis infundibulum;Animalia;Ctenophora;Tentaculata;Lobata;Bolinopsidae;Bolinopsis;infundibulum;NA;;Species;
+BOR_SAI;BOR_SAI;BOREOGADUS_SAIDA;4_Fish;Fish;4;Boreogadus saida;Animalia;Chordata;Actinopterygii;Gadiformes;Gadidae;Boreogadus;saida;Boreogadus saida;;Species;
+BRO_BRO;BRO_BRO;BROSME_BROSME;4_Fish;Fish;4;Brosme brosme;Animalia;Chordata;Actinopterygii;Gadiformes;Lotidae;Brosme;brosme;Brosme brosme;;Species;
+BRY_IND;BRY_IND;BRYOZOA_INDET;3_Benthos;Benthos;3;Bryozoa;Animalia;Bryozoa;NA;NA;NA;NA;NA;Bryozoa;;Phylum;
+BUC_SP;BUC_SP;BUCCINUM_SP;3_Benthos;Benthos;3;Buccinum;Animalia;Mollusca;Gastropoda;Neogastropoda;Buccinidae;Buccinum;NA;NA;;Genus;
+COL_SP;BUC_SP;COLUS_SP;3_Benthos;Benthos;3;Colus;Animalia;Mollusca;Gastropoda;Neogastropoda;Buccinidae;Colus;NA;Colus;;Genus;
+ACA_SPP;CAL_SPP;ACARTIA_SPP;2_Zooplankton;Zooplankton;2;Acartia;Animalia;Arthropoda;Hexanauplia;Calanoida;Acartiidae;Acartia;NA;NA;;Genus;
+CAL_FIN;CAL_SPP;CALANUS_FINMARCHICUS;2_Zooplankton;Zooplankton;2;Calanus finmarchicus;Animalia;Arthropoda;Hexanauplia;Calanoida;Calanidae;Calanus;finmarchicus;NA;;Species;
+CAL_GLA;CAL_SPP;CALANUS_GLACIALIS;2_Zooplankton;Zooplankton;2;Calanus glacialis;Animalia;Arthropoda;Hexanauplia;Calanoida;Calanidae;Calanus;glacialis;NA;;Species;
+CAL_HYP;CAL_SPP;CALANUS_HYPERBOREUS;2_Zooplankton;Zooplankton;2;Calanus hyperboreus;Animalia;Arthropoda;Hexanauplia;Calanoida;Calanidae;Calanus;hyperboreus;NA;;Species;
+MET_LON;CAL_SPP;METRIDIA_LONGA;2_Zooplankton;Zooplankton;2;Metridia longa;Animalia;Arthropoda;Hexanauplia;Calanoida;Metridinidae;Metridia;longa;NA;;Species;
+MET_LUC;CAL_SPP;METRIDIA_LUCENS;2_Zooplankton;Zooplankton;2;Metridia lucens lucens;Animalia;Arthropoda;Hexanauplia;Calanoida;Metridinidae;Metridia;lucens;NA;;Species;
+MIC_SPP;CAL_SPP;MICROCALANUS_SPP;2_Zooplankton;Zooplankton;2;Microcalanus;Animalia;Arthropoda;Hexanauplia;Calanoida;Clausocalanidae;Microcalanus;NA;NA;;Species;
+PAR_GLA;CAL_SPP;PAREUCHAETA_GLACIALIS;2_Zooplankton;Zooplankton;2;Paraeuchaeta glacialis;Animalia;Arthropoda;Hexanauplia;Calanoida;Euchaetidae;Paraeuchaeta;glacialis;NA;Paraeuchaeta;Species;Genus
+PAR_NOR;CAL_SPP;PAREUCHAETA_NORVEGICA;2_Zooplankton;Zooplankton;2;Paraeuchaeta norvegica;Animalia;Arthropoda;Hexanauplia;Calanoida;Euchaetidae;Paraeuchaeta;norvegica;Paraeuchaeta norvegica;Paraeuchaeta;Species;Genus
+PAR_SPP;CAL_SPP;PAREUCHAETA_SPP;2_Zooplankton;Zooplankton;2;Paraeuchaeta;Animalia;Arthropoda;Hexanauplia;Calanoida;Euchaetidae;Paraeuchaeta;NA;Paraeuchaeta;;Genus;
+PSE_SPP;CAL_SPP;PSEUDOCALANUS_SPP;2_Zooplankton;Zooplankton;2;Pseudocalanus;Animalia;Arthropoda;Hexanauplia;Calanoida;Clausocalanidae;Pseudocalanus;NA;NA;;NA;
+CAR_SPP;CAR_SPP;CAREPROCTUS_SP;4_Fish;Fish;4;Careproctus;Animalia;Chordata;Actinopterygii;Scorpaeniformes;Liparidae;Careproctus;NA;Careproctus;;Genus;
+CHI_OPI;CHI_OPI;CHIONOECETES_OPILIO;3_Benthos;Benthos;3;Chionoecetes opilio;Animalia;Arthropoda;Malacostraca;Decapoda;Oregoniidae;Chionoecetes;opilio;Chionoecetes opilio;;Species;
+CHL_ISL;CHL_ISL;CHLAMYS_ISLANDICA;3_Benthos;Benthos;3;Chlamys islandica;Animalia;Mollusca;Bivalvia;Pectinida;Pectinidae;Chlamys;islandica;Chlamys islandica;Chlamys;Species;
+CIO_INT;CIO_INT;CIONA_INTESTINALIS;3_Benthos;Benthos;3;Ciona intestinalis;Animalia;Chordata;Ascidiacea;Phlebobranchia;Cionidae;Ciona;intestinalis;Cionidae;Cionidae;Species;Family
+CLI_LIM;CLI_LIM;CLIONE_LIMACINA;2_Zooplankton;Zooplankton;2;Clione limacina;Animalia;Mollusca;Gastropoda;Pteropoda;Clionidae;Clione;limacina;Clione limacina;Clione;Species;Genus
+CLU_HAR;CLU_HAR;CLUPEA_HARENGUS;4_Fish;Fish;4;Clupea harengus;Animalia;Chordata;Actinopterygii;Clupeiformes;Clupeidae;Clupea;harengus;Clupea harengus;;Species;
+COT_MIC;COT_MIC;COTTUNCULUS_MICROPS;4_Fish;Fish;4;Cottunculus microps;Animalia;Chordata;Actinopterygii;Scorpaeniformes;Psychrolutidae;Cottunculus;microps;Cottunculus microps;;Species;
+CUC_FRO;CUC_FRO;CUCUMARIA_FRONDOSA;3_Benthos;Benthos;3;Cucumaria frondosa;Animalia;Echinodermata;Holothuroidea;Dendrochirotida;Cucumariidae;Cucumaria;frondosa;Cucumaria frondosa;;Species;
+CUM_SPP;CUM_SPP;CUMACEA_SPP;3_Benthos;Benthos;3;Cumacea;Animalia;Arthropoda;Malacostraca;Cumacea;NA;NA;NA;NA;;;
+CYC_LUM;CYC_LUM;CYCLOPTERUS_LUMPUS;4_Fish;Fish;4;Cyclopterus lumpus;Animalia;Chordata;Actinopterygii;Scorpaeniformes;Cyclopteridae;Cyclopterus;lumpus;Cyclopterus lumpus;;Species;
+OIT_SIM;CYC_SPP;OITHONA_SPINIROSTRIS/ATLANTICA;2_Zooplankton;Zooplankton;2;Oithona atlantica;Animalia;Arthropoda;Hexanauplia;Cyclopoida;Oithonidae;Oithona;atlantica;NA;;Species;
+OIT_SPI;CYC_SPP;OITHONA_SIMILIS;2_Zooplankton;Zooplankton;2;Oithona similis;Animalia;Arthropoda;Hexanauplia;Cyclopoida;Oithonidae;Oithona;similis;NA;;Species;
+ONC_BOR;CYC_SPP;ONCAEA_BOREALIS;2_Zooplankton;Zooplankton;2;Triconia borealis;Animalia;Arthropoda;Hexanauplia;Cyclopoida;Oncaeidae;Triconia;borealis;NA;;Species;
+CYS_CRI;CYS_CRI;CYSTOPHORA_CRISTATA;6_Mammals;Mammals;6;Cystophora cristata;Animalia;Chordata;Mammalia;Carnivora;Phocidae;Cystophora;cristata;Cystophora cristata;;Species;
+DEL_LEU;DEL_LEU;DELPHINAPTERUS_LEUCAS;6_Mammals;Mammals;6;Delphinapterus leucas;Animalia;Chordata;Mammalia;Cetartiodactyla;Monodontidae;Delphinapterus;leucas;NA;;Species;
+DET_IND;DET_IND;DETRITUS;1_Plankton;Basal;1;Detritus;NA;NA;NA;NA;NA;NA;NA;NA;;NA;
+DIATOM;DIATOM;DIATOM;1_Plankton;Basal;1;Diatoms;Chromista;Ochrophyta;Bacillariophyceae;NA;NA;NA;NA;NA;;NA;
+ELE_ARC;ELE_ARC;ELECTRA_ARCTICA;3_Benthos;Benthos;3;Einhornia arctica;Animalia;Bryozoa;Gymnolaemata;Cheilostomatida;Electridae;Einhornia;arctica;Electridae;Electridae;Species;Family
+ENC_CIM;ENC_CIM;ENCHELYOPUS_CIMBRIUS;4_Fish;Fish;4;Enchelyopus cimbrius;Animalia;Chordata;Actinopterygii;Gadiformes;Lotidae;Enchelyopus;cimbrius;Enchelyopus cimbrius;;Species;
+ERI_BAR;ERI_BAR;ERIGNATHUS_BARBATUS;6_Mammals;Mammals;6;Erignathus barbatus;Animalia;Chordata;Mammalia;Carnivora;Phocidae;Erignathus;barbatus;NA;;Species;
+ERY_SP;ERY_SP;ERYTHROPS_SP;3_Benthos;Benthos;3;Erythrops;Animalia;Arthropoda;Malacostraca;Mysida;Mysidae;Erythrops;NA;Mysidae;Mysidae;Genus;Family
+ETM_SPI;ETM_SPI;ETMOPTERUS_SPINAX;4_Fish;Fish;4;Etmopterus spinax;Animalia;Chordata;Elasmobranchii;Squaliformes;Etmopteridae;Etmopterus;spinax;Etmopterus spinax;;Species;
+EUK_HAM;EUK_HAM;EUKROHNIA_HAMATA;2_Zooplankton;Zooplankton;2;Eukrohnia hamata;Animalia;Chaetognatha;Sagittoidea;Phragmophora;Eukrohniidae;Eukrohnia;hamata;NA;;Species;
+EUM_SPI;EUM_SPI;EUMICROTREMUS_SPINOSUS;4_Fish;Fish;4;Eumicrotremus spinosus;Animalia;Chordata;Actinopterygii;Scorpaeniformes;Cyclopteridae;Eumicrotremus;spinosus;Eumicrotremus spinosus;;Species;
+FI_LA;FI_LA;FISH_LARVAE;4_Fish;Fish;4;Fish larvae;Animalia;Chordata;Actinopterygii;NA;NA;NA;NA;NA;;NA;
+FOR_IND;FOR_IND;FORAMINIFERA;3_Benthos;Benthos;3;Foraminifera;Chromista;Foraminifera;NA;NA;NA;NA;NA;NA;;Phylum;
+FRA_ARC;FRA_ARC;FRATERCULA_ARCTICA;5_Seabirds;Seabirds;5;Fratercula arctica;Animalia;Chordata;Aves;Charadriiformes;Alcidae;Fratercula;arctica;Fratercula arctica;;Species;
+FRI_BOR;FRI_BOR;FRITILLARIA_BOREALIS;2_Zooplankton;Zooplankton;2;Fritillaria borealis;Animalia;Chordata;Appendicularia;Copelata;Fritillariidae;Fritillaria;borealis;NA;;Species;
+FUL_GLA;FUL_GLA;FULMARUS_GLACIALIS;5_Seabirds;Seabirds;5;Fulmarus glacialis;Animalia;Chordata;Aves;Procellariiformes;Procellariidae;Fulmarus;glacialis;Fulmarus glacialis;;Species;
+GAD_ARG;GAD_ARG;GADICULUS_ARGENTEUS;4_Fish;Fish;4;Gadiculus argenteus;Animalia;Chordata;Actinopterygii;Gadiformes;Gadidae;Gadiculus;argenteus;Gadiculus argenteus;;Species;
+GAD_MOR;GAD_MOR;GADUS_MORHUA;4_Fish;Fish;4;Gadus morhua;Animalia;Chordata;Actinopterygii;Gadiformes;Gadidae;Gadus;morhua;Gadus morhua;;Species;
+GAI_ARG;GAI_ARG;GAIDROPSARUS_ARGENTATUS;4_Fish;Fish;4;Gaidropsarus argentatus;Animalia;Chordata;Actinopterygii;Gadiformes;Lotidae;Gaidropsarus;argentatus;Gaidropsarus argentatus;Gaidropsarus;Species;Genus
+GAS_ACU;GAS_ACU;GASTEROSTEUS_ACULEATUS;4_Fish;Fish;4;Gasterosteus aculeatus;Animalia;Chordata;Actinopterygii;Gasterosteiformes;Gasterosteidae;Gasterosteus;aculeatus;Gasterosteus aculeatus;;Species;
+GEO_SP;GEO_SP;GEODIA_SP;3_Benthos;Benthos;3;Geodia;Animalia;Porifera;Demospongiae;Tetractinellida;Geodiidae;Geodia;NA;Geodia;;Genus;
+GLY_CYN;GLY_CYN;GLYPTOCEPHALUS_CYNOGLOSSUS;4_Fish;Fish;4;Glyptocephalus cynoglossus;Animalia;Chordata;Actinopterygii;Pleuronectiformes;Pleuronectidae;Glyptocephalus;cynoglossus;Glyptocephalus cynoglossus;;Species;
+GON_FAB;GON_FAB;GONATUS_FABRICII;3_Benthos;Benthos;3;Gonatus steenstrupi;Animalia;Mollusca;Cephalopoda;Oegopsida;Gonatidae;Gonatus;steenstrupi;Gonatus fabricii;Gonatus;Species;
+GOR_SP;GOR_SP;GORGONOCEPHALUS_SP;3_Benthos;Benthos;3;Gorgonocephalus;Animalia;Echinodermata;Ophiuroidea;Euryalida;Gorgonocephalidae;Gorgonocephalus;NA;Gorgonocephalus;;Genus;
+GYM_SPP;GYM_SPP;GYMNELUS_SPP;4_Fish;Fish;4;Gymnelus;Animalia;Chordata;Actinopterygii;Perciformes;Zoarcidae;Gymnelus;NA;Gymnelus retrodorsalis;;Genus;
+GYM_TRI;GYM_TRI;GYMNOCANTHUS_TRICUSPIS;4_Fish;Fish;4;Gymnocanthus tricuspis;Animalia;Chordata;Actinopterygii;Scorpaeniformes;Cottidae;Gymnocanthus;tricuspis;Gymnocanthus tricuspis;;Species;
+HAL_GRY;HAL_GRY;;6_Mammals;Mammals;6;Halichoerus grypus;Animalia;Chordata;Mammalia;Carnivora;Phocidae;Halichoerus;grypus;NA;;Species;
+HEL_GLA;HEL_GLA;HELIOMETRA_GLACIALIS;3_Benthos;Benthos;3;Heliometra glacialis;Animalia;Echinodermata;Crinoidea;Comatulida;Antedonidae;Heliometra;glacialis;Heliometra glacialis;;Species;
+HET_FLA;HET_FLA;HETEROTROPH_FLAGELLAT;1_Plankton;Basal;1;Heterotroph flagellates;NA;NA;NA;NA;NA;NA;NA;NA;;NA;
+HIP_HIP;HIP_HIP;HIPPOGLOSSUS_HIPPOGLOSSUS;4_Fish;Fish;4;Hippoglossus hippoglossus;Animalia;Chordata;Actinopterygii;Pleuronectiformes;Pleuronectidae;Hippoglossus;hippoglossus;Hippoglossus hippoglossus;;Species;
+HIP_PLA;HIP_PLA;HIPPOGLOSSOIDES_PLATESSOIDES;4_Fish;Fish;4;Hippoglossoides platessoides;Animalia;Chordata;Actinopterygii;Pleuronectiformes;Pleuronectidae;Hippoglossoides;platessoides;Hippoglossoides platessoides;;Species;
+HYA_SP;HYA_SP;HYAS_SP;3_Benthos;Benthos;3;Hyas;Animalia;Arthropoda;Malacostraca;Decapoda;Oregoniidae;Hyas;NA;Hyas;;Genus;
+AGL_DIG;HYD_IND;AGLANTHA_DIGITALE;2_Zooplankton;Zooplankton;2;Aglantha digitale;Animalia;Cnidaria;Hydrozoa;Trachymedusae;Rhopalonematidae;Aglantha;digitale;Aglantha digitale;;Species;
+DIM_ARC;HYD_IND;DIMOPHYES_ARCTICA;2_Zooplankton;Zooplankton;2;Dimophyes arctica;Animalia;Cnidaria;Hydrozoa;Siphonophorae;Diphyidae;Dimophyes;arctica;Siphonophorae;Siphonophorae;Species;Order
+EUP_FLAM;HYD_IND;EUPHYSA_FLAMMEA;2_Zooplankton;Zooplankton;2;Euphysa flammea;Animalia;Cnidaria;Hydrozoa;Anthoathecata;Corymorphidae;Euphysa;flammea;NA;;Species;
+HYD_IND;HYD_IND;HYDROZOA_INDET;3_Benthos;Benthos;3;Hydrozoa;Animalia;Cnidaria;Hydrozoa;NA;NA;NA;NA;Hydrozoa;;Class;
+SAR_SPP;HYD_IND;SARSIA_SPP;2_Zooplankton;Zooplankton;2;Sarsia;Animalia;Cnidaria;Hydrozoa;Anthoathecata;Corynidae;Sarsia;NA;NA;;Genus;
+ICE_ALG;ICE_ALG;ICE_ALGAE;1_Plankton;Basal;1;Ice algae;NA;NA;NA;NA;NA;NA;NA;NA;;NA;
+ICE_SPP;ICE_SPP;ICELUS_SPP;4_Fish;Fish;4;Icelus;Animalia;Chordata;Actinopterygii;Scorpaeniformes;Cottidae;Icelus;NA;Icelus;;Genus;
+ISO_IND;ISO_IND;ISOPODA_INDET;3_Benthos;Benthos;3;Isopoda;Animalia;Arthropoda;Malacostraca;Isopoda;NA;NA;NA;Isopoda;Isopoda;Order;
+LAG_ALB;LAG_ALB;LAGENORHYNCHUS_ALBIROSTRIS;6_Mammals;Mammals;6;Lagenorhynchus albirostris;Animalia;Chordata;Mammalia;Cetartiodactyla;Delphinidae;Lagenorhynchus;albirostris;NA;;Species;
+LAR_ARG;LAR_ARG;LARUS_ARGENTATUS;5_Seabirds;Seabirds;5;Larus argentatus;Animalia;Chordata;Aves;Charadriiformes;Laridae;Larus;argentatus;Larus argentatus;;Species;
+LAR_HYP;LAR_HYP;LARUS_HYPERBOREUS;5_Seabirds;Seabirds;5;Larus hyperboreus;Animalia;Chordata;Aves;Charadriiformes;Laridae;Larus;hyperboreus;Larus hyperboreus;;Species;
+LAR_MAR;LAR_MAR;LARUS_MARINUS;5_Seabirds;Seabirds;5;Larus marinus;Animalia;Chordata;Aves;Charadriiformes;Laridae;Larus;marinus;Larus marinus;;Species;
+LEP_DEC;LEP_DEC;LEPTAGONUS_DECAGONUS;4_Fish;Fish;4;Leptagonus decagonus;Animalia;Chordata;Actinopterygii;Scorpaeniformes;Agonidae;Leptagonus;decagonus;Leptagonus decagonus;;Species;
+LEP_MAC;LEP_MAC;LEPTOCLINUS_MACULATUS;4_Fish;Fish;4;Leptoclinus maculatus;Animalia;Chordata;Actinopterygii;Perciformes;Stichaeidae;Leptoclinus;maculatus;Leptoclinus maculatus;;Species;
+LIM_HEL;LIM_HEL;LIMACINA_HELICINA;2_Zooplankton;Zooplankton;2;Limacina helicina;Animalia;Mollusca;Gastropoda;Pteropoda;Limacinidae;Limacina;helicina;Limacina helicina;Limacina;Species;Genus
+LIM_LIM;LIM_LIM;LIMANDA_LIMANDA;4_Fish;Fish;4;Limanda limanda;Animalia;Chordata;Actinopterygii;Pleuronectiformes;Pleuronectidae;Limanda;limanda;Limanda limanda;;Species;
+LIM_RET;LIM_RET;LIMACINA_RETROVERSA;2_Zooplankton;Zooplankton;2;Limacina retroversa;Animalia;Mollusca;Gastropoda;Pteropoda;Limacinidae;Limacina;retroversa;Limacina retroversa;Limacina;Species;Genus
+LIP_FAB;LIP_SPP;LIPARIS_FABRICII;4_Fish;Fish;4;Liparis fabricii;Animalia;Chordata;Actinopterygii;Scorpaeniformes;Liparidae;Liparis;fabricii;Liparis fabricii;Liparis;Species;Genus
+LIP_GIB;LIP_SPP;LIPARIS_GIBBUS;4_Fish;Fish;4;Liparis gibbus;Animalia;Chordata;Actinopterygii;Scorpaeniformes;Liparidae;Liparis;gibbus;Liparis;Liparis;Species;Genus
+LIP_MON;LIP_SPP;LIPARIS_MONTAGUI;4_Fish;Fish;4;Liparis montagui;Animalia;Chordata;Actinopterygii;Scorpaeniformes;Liparidae;Liparis;montagui;Liparis;Liparis;Species;Genus
+LUM_FAB;LUM_FAB;LUMPENUS_FABRICII;4_Fish;Fish;4;Lumpenus fabricii;Animalia;Chordata;Actinopterygii;Perciformes;Stichaeidae;Lumpenus;fabricii;Lumpenus fabricii;Lumpenus;Species;Genus
+LUM_LAM;LUM_LAM;LUMPENUS_LAMPRETAEFORMIS;4_Fish;Fish;4;Lumpenus lampretaeformis;Animalia;Chordata;Actinopterygii;Perciformes;Stichaeidae;Lumpenus;lampretaeformis;Lumpenus lampretaeformis;Lumpenus;Species;Genus
+LYC_KOL;LYC_KOL;LYCENCHELYS_KOLTHOFFI;4_Fish;Fish;4;Lycenchelys kolthoffi;Animalia;Chordata;Actinopterygii;Perciformes;Zoarcidae;Lycenchelys;kolthoffi;NA;Zoarcidae;Species;Family
+LYC_ESM;LYC_SPP;LYCODES_ESMARKII;4_Fish;Fish;4;Lycodes esmarkii;Animalia;Chordata;Actinopterygii;Perciformes;Zoarcidae;Lycodes;esmarkii;Lycodes;Lycodes;Species;Genus
+LYC_EUD;LYC_SPP;LYCODES_EUDIPLEUROSTICTUS;4_Fish;Fish;4;Lycodes eudipleurostictus;Animalia;Chordata;Actinopterygii;Perciformes;Zoarcidae;Lycodes;eudipleurostictus;Lycodes;Lycodes;Species;Genus
+LYC_GRA;LYC_SPP;LYCODES_GRACILIS;4_Fish;Fish;4;Lycodes gracilis;Animalia;Chordata;Actinopterygii;Perciformes;Zoarcidae;Lycodes;gracilis;Lycodes gracilis;Lycodes;Species;Genus
+LYC_PAL;LYC_SPP;LYCODES_PALLIDUS;4_Fish;Fish;4;Lycodes pallidus;Animalia;Chordata;Actinopterygii;Perciformes;Zoarcidae;Lycodes;pallidus;Lycodes pallidus;Lycodes;Species;Genus
+LYC_RET;LYC_SPP;LYCODES_RETICULATUS;4_Fish;Fish;4;Lycodes reticulatus;Animalia;Chordata;Actinopterygii;Perciformes;Zoarcidae;Lycodes;reticulatus;Lycodes;Lycodes;Species;Genus
+LYC_ROS;LYC_SPP;LYCODES_ROSSI;4_Fish;Fish;4;Lycodes rossi;Animalia;Chordata;Actinopterygii;Perciformes;Zoarcidae;Lycodes;rossi;Lycodes;Lycodes;Species;Genus
+LYC_SEM;LYC_SPP;LYCODES_SEMINUDUS;4_Fish;Fish;4;Lycodes seminudus;Animalia;Chordata;Actinopterygii;Perciformes;Zoarcidae;Lycodes;seminudus;Lycodes;Lycodes;Species;Genus
+MAC_BER;MAC_BER;MACROURUS_BERGLAX;4_Fish;Fish;4;Macrourus berglax;Animalia;Chordata;Actinopterygii;Gadiformes;Macrouridae;Macrourus;berglax;Macrourus berglax;;Species;
+MAC_IND;MAC_IND;MACROALGAE;1_Plankton;Basal;1;Macroalgae;NA;NA;NA;NA;NA;NA;NA;NA;;NA;
+MAL_VIL;MAL_VIL;MALLOTUS_VILLOSUS;4_Fish;Fish;4;Mallotus villosus;Animalia;Chordata;Actinopterygii;Osmeriformes;Osmeridae;Mallotus;villosus;Mallotus villosus;;Species;
+MAU_MUE;MAU_MUE;MAUROLICUS_MUELLERI;4_Fish;Fish;4;Maurolicus muelleri;Animalia;Chordata;Actinopterygii;Stomiiformes;Sternoptychidae;Maurolicus;muelleri;Maurolicus muelleri;;Species;
+MEG_NOR;MEG_NOR;MEGANYCTIPHANES_NORVEGICA;2_Zooplankton;Zooplankton;2;Meganyctiphanes norvegica;Animalia;Arthropoda;Malacostraca;Euphausiacea;Euphausiidae;Meganyctiphanes;norvegica;Meganyctiphanes norvegica;Meganyctiphanes;Species;Genus
+MEG_NOV;MEG_NOV;MEGAPTERA_NOVAEANGLIAE;6_Mammals;Mammals;6;Megaptera novaeangliae;Animalia;Chordata;Mammalia;Cetartiodactyla;Balaenopteridae;Megaptera;novaeangliae;Megaptera novaeangliae;;Species;
+MEL_AEG;MEL_AEG;MELANOGRAMMUS_AEGLEFINUS;4_Fish;Fish;4;Melanogrammus aeglefinus;Animalia;Chordata;Actinopterygii;Gadiformes;Gadidae;Melanogrammus;aeglefinus;Melanogrammus aeglefinus;;Species;
+MER_MER;MER_MER;MERLANGIUS_MERLANGUS;4_Fish;Fish;4;Merlangius merlangus;Animalia;Chordata;Actinopterygii;Gadiformes;Gadidae;Merlangius;merlangus;Merlangius merlangus;;Species;
+MER_OVU;MER_OVU;MERTENSIA_OVUM;2_Zooplankton;Zooplankton;2;Mertensia ovum;Animalia;Ctenophora;Tentaculata;Cydippida;Mertensiidae;Mertensia;ovum;NA;;Species;
+MIC_KIT;MIC_KIT;MICROSTOMUS_KITT;4_Fish;Fish;4;Microstomus kitt;Animalia;Chordata;Actinopterygii;Pleuronectiformes;Pleuronectidae;Microstomus;kitt;Microstomus kitt;;Species;
+MIC_POU;MIC_POU;MICROMESISTIUS_POUTASSOU;4_Fish;Fish;4;Micromesistius poutassou;Animalia;Chordata;Actinopterygii;Gadiformes;Gadidae;Micromesistius;poutassou;Micromesistius poutassou;;Species;
+MIX_FLA;MIX_FLA;MIXOTROPH_FLAGELLATES;1_Plankton;Basal;1;Mixotroph flagellates;NA;NA;NA;NA;NA;NA;NA;NA;;Species;
+MOL_BOR;MOL_BOR;MOLPADIA_BOREALIS;3_Benthos;Benthos;3;Molpadia borealis;Animalia;Echinodermata;Holothuroidea;Molpadida;Molpadiidae;Molpadia;borealis;Molpadia;Molpadia;Species;Genus
+MOL_MOL;MOL_MOL;MOLVA_MOLVA;4_Fish;Fish;4;Molva molva;Animalia;Chordata;Actinopterygii;Gadiformes;Lotidae;Molva;molva;Molva molva;;Species;
+MON_MON;MON_MON;MONODON_MONOCEROS;6_Mammals;Mammals;6;Monodon monoceros;Animalia;Chordata;Mammalia;Cetartiodactyla;Monodontidae;Monodon;monoceros;NA;;Species;
+MUN_SPP;MUN_SPP;MUNIDA_SPP;3_Benthos;Benthos;3;Munida;Animalia;Arthropoda;Malacostraca;Decapoda;Munididae;Munida;NA;Munida;Munida sarsi;Genus;
+MYO_SCO;MYO_SCO;MYOXOCEPHALUS_SCORPIUS;4_Fish;Fish;4;Myoxocephalus scorpius;Animalia;Chordata;Actinopterygii;Scorpaeniformes;Cottidae;Myoxocephalus;scorpius;Myoxocephalus scorpius;;Species;
+NEM_MEG;NEM_MEG;NEMATOSCELIS_MEGALOPS;2_Zooplankton;Zooplankton;2;Nematoscelis megalops;Animalia;Arthropoda;Malacostraca;Euphausiacea;Euphausiidae;Nematoscelis;megalops;NA;;Species;
+NEP_SP;NEP_SP;NEPHTHEIDAE_SP;3_Benthos;Benthos;3;Nephtheidae;Animalia;Cnidaria;Anthozoa;Alcyonacea;Nephtheidae;NA;NA;Nephtheidae;;Family;
+NYC_COU;NYC_COU;NYCTIPHANES_COUCHII;3_Benthos;Benthos;3;Nyctiphanes couchii;Animalia;Arthropoda;Malacostraca;Euphausiacea;Euphausiidae;Nyctiphanes;couchii;Euphausiidae;Euphausiidae;Species;Family
+ODO_ROS;ODO_ROS;ODOBENUS_ROSMARUS;6_Mammals;Mammals;6;Odobenus rosmarus;Animalia;Chordata;Mammalia;Carnivora;Odobenidae;Odobenus;rosmarus;NA;;Species;
+OIK_DIO;OIK_SPP;OIKOPLEURA_DIOICA;2_Zooplankton;Zooplankton;2;Oikopleura (Vexillaria) dioica;Animalia;Chordata;Appendicularia;Copelata;Oikopleuridae;Oikopleura;dioica;NA;;Species;
+OIK_SPP;OIK_SPP;OIKOPLEURA_SPP;2_Zooplankton;Zooplankton;2;Oikopleura;Animalia;Chordata;Appendicularia;Copelata;Oikopleuridae;Oikopleura;NA;NA;;Genus;
+OIK_VAN;OIK_SPP;OIKOPLEURA_VANHOEFFENI;2_Zooplankton;Zooplankton;2;Oikopleura (Vexillaria) vanhoeffeni;Animalia;Chordata;Appendicularia;Copelata;Oikopleuridae;Oikopleura;vanhoeffeni;NA;;Species;
+ONI_GLA;ONI_SPP;ONISIMUS_GLACIALIS;2_Zooplankton;Zooplankton;2;Onisimus glacialis;Animalia;Arthropoda;Malacostraca;Amphipoda;Uristidae;Onisimus;glacialis;NA;;Species;
+ONI_NAN;ONI_SPP;ONISIMUS_NANSENI;2_Zooplankton;Zooplankton;2;Onisimus nanseni;Animalia;Arthropoda;Malacostraca;Amphipoda;Uristidae;Onisimus;nanseni;NA;;Species;
+OPH_ACU;OPH_ACU;OPHIOPHOLIS_ACULEATA;3_Benthos;Benthos;3;Ophiopholis aculeata;Animalia;Echinodermata;Ophiuroidea;Amphilepidida;Ophiopholidae;Ophiopholis;aculeata;Ophiopholis aculeata;;Species;
+OPH_BID;OPH_BID;OPHIACANTHA_BIDENTATA;3_Benthos;Benthos;3;Ophiacantha bidentata;Animalia;Echinodermata;Ophiuroidea;Ophiacanthida;Ophiacanthidae;Ophiacantha;bidentata;Ophiacantha;Ophiacantha;Species;Genus
+OPH_BOR;OPH_BOR;OPHIOPLEURA_BOREALIS;3_Benthos;Benthos;3;Ophiopleura borealis;Animalia;Echinodermata;Ophiuroidea;Ophiurida;Ophiopyrgidae;Ophiopleura;borealis;Ophiopleura borealis;;Species;
+OPH_GLA;OPH_GLA;OPHIOSCOLEX_GLACIALIS;3_Benthos;Benthos;3;Ophioscolex glacialis;Animalia;Echinodermata;Ophiuroidea;Ophioscolecida;Ophioscolecidae;Ophioscolex;glacialis;Ophioscolex glacialis;;Species;
+OPH_SER;OPH_SER;OPHIOCTEN_SERICEUM;3_Benthos;Benthos;3;Ophiocten sericeum;Animalia;Echinodermata;Ophiuroidea;Ophiurida;Ophiuridae;Ophiocten;sericeum;Ophiocten sericeum;Ophiocten;Species;Genus
+OPH_SP;OPH_SP;OPHIURA_SP;3_Benthos;Benthos;3;Ophiura;Animalia;Echinodermata;Ophiuroidea;Ophiurida;Ophiuridae;Ophiura;NA;Ophiura sarsii;Ophiura robusta;Genus;
+ORC_ORC;ORC_ORC;ORCINUS_ORCA;6_Mammals;Mammals;6;Orcinus orca;Animalia;Chordata;Mammalia;Cetartiodactyla;Delphinidae;Orcinus;orca;NA;;Species;
+OST_IND;OST_IND;OSTRACODA_INDET;3_Benthos;Benthos;3;Ostracoda;Animalia;Arthropoda;Ostracoda;NA;NA;NA;NA;Astarte;;Class;
+PAG_GRO;PAG_GRO;PAGOPHILUS_GROENLANDICUS;6_Mammals;Mammals;6;Pagophilus groenlandicus;Animalia;Chordata;Mammalia;Carnivora;Phocidae;Pagophilus;groenlandicus;NA;;Species;
+PAG_SP;PAG_SP;PAGURUS_SP;3_Benthos;Benthos;3;Pagurus;Animalia;Arthropoda;Malacostraca;Decapoda;Paguridae;Pagurus;NA;Pagurus;;Genus;
+PAN_BOR;PAN_BOR;PANDALUS_BOREALIS;3_Benthos;Benthos;3;Pandalus borealis;Animalia;Arthropoda;Malacostraca;Decapoda;Pandalidae;Pandalus;borealis;Pandalus borealis;Pandalus;Species;Genus
+PAR_BAT;PAR_BAT;PARALIPARIS_BATHYBIUS;4_Fish;Fish;4;Paraliparis bathybius;Animalia;Chordata;Actinopterygii;Scorpaeniformes;Liparidae;Paraliparis;bathybius;Paraliparis bathybius;;Species;
+PAR_CAM;PAR_CAM;PARALITHODES_CAMTSCHATICUS;3_Benthos;Benthos;3;Paralithodes camtschaticus;Animalia;Arthropoda;Malacostraca;Decapoda;Lithodidae;Paralithodes;camtschaticus;Paralithodes camtschaticus;;Species;
+PHA_STR;PHA_STR;PHASCOLION_STROMBUS;3_Benthos;Benthos;3;Phascolion (Phascolion) strombus strombus;Animalia;Sipuncula;Sipunculidea;Golfingiida;Phascolionidae;Phascolion;strombus;Phascolion;Phascolion;Species;Genus
+PHO_HIS;PHO_HIS;PHOCA_HISPIDA;6_Mammals;Mammals;6;Pusa hispida;Animalia;Chordata;Mammalia;Carnivora;Phocidae;Pusa;hispida;Pusa hispida;;Species;
+PHO_PHO;PHO_PHO;PHOCOENA_PHOCOENA;6_Mammals;Mammals;6;Phocoena phocoena;Animalia;Chordata;Mammalia;Cetartiodactyla;Phocoenidae;Phocoena;phocoena;Phocoena phocoena;;Species;
+PHO_VIT;PHO_VIT;;6_Mammals;Mammals;6;Phoca vitulina;Animalia;Chordata;Mammalia;Carnivora;Phocidae;Phoca;vitulina;NA;;;
+PHY_IND;PHY_IND;PHYTOPLANKTON_INDET;1_Plankton;Basal;1;Phytoplankton inderteminated;NA;NA;NA;NA;NA;NA;NA;NA;;NA;
+PHY_MAC;PHY_MAC;PHYSETER_MACROCEPHALUS;6_Mammals;Mammals;6;Physeter macrocephalus;Animalia;Chordata;Mammalia;Cetartiodactyla;Physeteridae;Physeter;macrocephalus;Physeter macrocephalus;;Species;
+PLE_PLA;PLE_PLA;PLEURONECTES_PLATESSA;4_Fish;Fish;4;Pleuronectes platessa;Animalia;Chordata;Actinopterygii;Pleuronectiformes;Pleuronectidae;Pleuronectes;platessa;Pleuronectes platessa;;Species;
+POL_POL;POL_POL;POLLACHIUS_POLLACHIUS;4_Fish;Fish;4;Pollachius pollachius;Animalia;Chordata;Actinopterygii;Gadiformes;Gadidae;Pollachius;pollachius;Pollachius pollachius;;Species;
+AGL_MAL;POL_SPP;AGLAOPHAMUS_MALMGRENI;3_Benthos;Benthos;3;Aglaophamus malmgreni;Animalia;Annelida;Polychaeta;Phyllodocida;Nephtyidae;Aglaophamus;malmgreni;NA;Nephtyidae;Species;
+APH_MAR;POL_SPP;APHELOCHAETA_MARIONI;3_Benthos;Benthos;3;Aphelochaeta marioni;Animalia;Annelida;Polychaeta;Terebellida;Cirratulidae;Aphelochaeta;marioni;NA;Terebellidae;Species;
+CHA_SP;POL_SPP;CHAETOZONE_SP;3_Benthos;Benthos;3;Chaetozone;Animalia;Annelida;Polychaeta;Terebellida;Cirratulidae;Chaetozone;NA;NA;Terebellidae;Genus;Family
+CHO_SP;POL_SPP;CHONE_SP;3_Benthos;Benthos;3;Chone;Animalia;Annelida;Polychaeta;Sabellida;Sabellidae;Chone;NA;NA;Sabellidae;Genus;Family
+CIR_IND;POL_SPP;CIRRATULIDAE_INDET;3_Benthos;Benthos;3;Cirratulidae;Animalia;Annelida;Polychaeta;Terebellida;Cirratulidae;NA;NA;NA;NA;Family;
+EUC_IND;POL_SPP;EUCLYMENINAE_INDET;3_Benthos;Benthos;3;Euclymeninae;Animalia;Annelida;Polychaeta;NA;Maldanidae;NA;NA;Nicomache;Maldanidae;Subfamily;Family
+GAL_SP;POL_SPP;GALATHOWENIA_SP;3_Benthos;Benthos;3;Galathowenia;Animalia;Annelida;Polychaeta;Sabellida;Oweniidae;Galathowenia;NA;NA;Oweniidae;Genus;Family
+HET_FIL;POL_SPP;HETEROMASTUS_FILIFORMIS;3_Benthos;Benthos;3;Heteromastus filiformis;Animalia;Annelida;Polychaeta;NA;Capitellidae;Heteromastus;filiformis;NA;Polychaeta;Species;Class
+LUM_MIN;POL_SPP;LUMBRICLYMENE_MINOR;3_Benthos;Benthos;3;Lumbriclymene minor;Animalia;Annelida;Polychaeta;NA;Maldanidae;Lumbriclymene;minor;NA;Maldanidae;Species;Family
+LUM_SP;POL_SPP;LUMBRINERIS_SP;3_Benthos;Benthos;3;Lumbrineris;Animalia;Annelida;Polychaeta;Eunicida;Lumbrineridae;Lumbrineris;NA;NA;Lumbrineridae;Genus;Family
+MAL_SAR;POL_SPP;MALDANE_SARSI;3_Benthos;Benthos;3;Maldane sarsi;Animalia;Annelida;Polychaeta;NA;Maldanidae;Maldane;sarsi;NA;Maldanidae;Species;Family
+MYR_HEE;POL_SPP;MYRIOCHELE_HERRI;3_Benthos;Benthos;3;Myriochele heeri;Animalia;Annelida;Polychaeta;Sabellida;Oweniidae;Myriochele;heeri;NA;Oweniidae;Species;Family
+PAR_JEF;POL_SPP;PARAMPHINOME_JEFFREYSII;3_Benthos;Benthos;3;Paramphinome jeffreysii;Animalia;Annelida;Polychaeta;Amphinomida;Amphinomidae;Paramphinome;jeffreysii;NA;NA;Species;
+POL_IND;POL_SPP;POLYCHAETA;3_Benthos;Benthos;3;Polychaeta;Animalia;Annelida;Polychaeta;NA;NA;NA;NA;Polychaeta;;Class;
+POLY_IND;POL_SPP;POLYNOIDAE_INDET;3_Benthos;Benthos;3;Polynoidae;Animalia;Annelida;Polychaeta;Phyllodocida;Polynoidae;NA;NA;Polynoidae;;Family;
+PRI_CIR;POL_SPP;PRIONOSPIO_CIRRIFERA;3_Benthos;Benthos;3;Prionospio cirrifera;Animalia;Annelida;Polychaeta;Spionida;Spionidae;Prionospio;cirrifera;NA;;Species;
+SCA_INF;POL_SPP;SCALIBREGMA_INFLATUM;3_Benthos;Benthos;3;Scalibregma inflatum;Animalia;Annelida;Polychaeta;NA;Scalibregmatidae;Scalibregma;inflatum;NA;Scalibregmatidae;Species;Family
+SER_IND;POL_SPP;SERPULIDAE_INDET;3_Benthos;Benthos;3;Serpulidae;Animalia;Annelida;Polychaeta;Sabellida;Serpulidae;NA;NA;Serpulidae;Serpulidae;Family;Family
+SPI_KRO;POL_SPP;SPIOPHANES_KROEYERI;3_Benthos;Benthos;3;Spiophanes kroyeri;Animalia;Annelida;Polychaeta;Spionida;Spionidae;Spiophanes;kroyeri;NA;;Species;
+SPI_TYP;POL_SPP;SPIOCHAETOPTERUS_TYPICUS;3_Benthos;Benthos;3;Spiochaetopterus typicus;Animalia;Annelida;Polychaeta;NA;Chaetopteridae;Spiochaetopterus;typicus;Spiochaetopterus typicus;;Species;
+TER_STRO;POL_SPP;TEREBELLIDES_STROEMI;3_Benthos;Benthos;3;Terebellides stroemii;Animalia;Annelida;Polychaeta;Terebellida;Trichobranchidae;Terebellides;stroemii;NA;;Species;
+POL_VIR;POL_VIR;POLLACHIUS_VIRENS;4_Fish;Fish;4;Pollachius virens;Animalia;Chordata;Actinopterygii;Gadiformes;Gadidae;Pollachius;virens;Pollachius virens;;Species;
+PON_NOR;PON_NOR;PONTOPHILUS_NORVEGICUS;3_Benthos;Benthos;3;Pontophilus norvegicus;Animalia;Arthropoda;Malacostraca;Decapoda;Crangonidae;Pontophilus;norvegicus;Pontophilus norvegicus;;Species;
+POR_G_SP;POR_G_SP;PORIFERA_G_SP;3_Benthos;Benthos;3;Porifera;Animalia;Porifera;NA;NA;NA;NA;NA;Porifera;;Phylum;
+PROZOO;PROZOO;PROTOZOOPLANKTON;2_Zooplankton;Zooplankton;1;Protozooplankton;Protozoa;NA;NA;NA;NA;NA;NA;NA;;NA;
+PYC_G_SP;PYC_G_SP;PYCNOGONIDA_G_SP;3_Benthos;Benthos;3;Pycnogonida;Animalia;Arthropoda;Pycnogonida;NA;NA;NA;NA;Pycnogonida;;Family;
+RAJ_FYL;RAJ_FYL;RAJELLA_FYLLAE;4_Fish;Fish;4;Rajella fyllae;Animalia;Chordata;Elasmobranchii;Rajiformes;Rajidae;Rajella;fyllae;Rajella fyllae;;Species;
+REI_HIP;REI_HIP;REINHARDTIUS_HIPPOGLOSSOIDES;4_Fish;Fish;4;Reinhardtius hippoglossoides;Animalia;Chordata;Actinopterygii;Pleuronectiformes;Pleuronectidae;Reinhardtius;hippoglossoides;Reinhardtius hippoglossoides;;Species;
+RHA_SP;RHA_SP;RHACHOTROPIS_SP;3_Benthos;Benthos;3;Rhachotropis;Animalia;Arthropoda;Malacostraca;Amphipoda;Eusiridae;Rhachotropis;NA;Rhachotropis;;Genus;
+RIS_TRI;RIS_TRI;RISSA_TRIDACTYLA;5_Seabirds;Seabirds;5;Rissa tridactyla;Animalia;Chordata;Aves;Charadriiformes;Laridae;Rissa;tridactyla;Rissa tridactyla;;Species;
+ROS_SP;ROS_SP;ROSSIA_SP;3_Benthos;Benthos;3;Rossia;Animalia;Mollusca;Cephalopoda;Sepiida;Sepiolidae;Rossia;NA;NA;;Genus;
+SAB_SP;SAB_SP;SABINEA_SP;3_Benthos;Benthos;3;Sabinea;Animalia;Arthropoda;Malacostraca;Decapoda;Crangonidae;Sabinea;NA;Sabinea sarsii;Sabinea septemcarinata;Genus;
+SAG_SPP;SAG_SPP;SAGITTA_SPP;2_Zooplankton;Zooplankton;2;Sagitta;Animalia;Chaetognatha;Sagittoidea;Aphragmophora;Sagittidae;Sagitta;NA;NA;;Genus;
+SCL_SP;SCL_SP;SCLEROCRANGON_SP;3_Benthos;Benthos;3;Sclerocrangon;Animalia;Arthropoda;Malacostraca;Decapoda;Crangonidae;Sclerocrangon;NA;Sclerocrangon boreas;Sclerocrangon ferox;Genus;
+SCO_SCO;SCO_SCO;SCOMBER_SCOMBRUS;4_Fish;Fish;4;Scomber scombrus;Animalia;Chordata;Actinopterygii;Perciformes;Scombridae;Scomber;scombrus;Scomber scombrus;;Species;
+AUR_AUR;SCYP_SPP;AURELIA_AURITA;2_Zooplankton;Zooplankton;2;Aurelia aurita;Animalia;Cnidaria;Scyphozoa;Semaeostomeae;Ulmaridae;Aurelia;aurita;Aurelia aurita;Aurelia;Species;
+CYA_CAP;SCYP_SPP;CYANEA_CAPILLATA;2_Zooplankton;Zooplankton;2;Cyanea capillata;Animalia;Cnidaria;Scyphozoa;Semaeostomeae;Cyaneidae;Cyanea;capillata;Cyanea capillata;Cyanea;Species;Genus
+SEB_MAR;SEB_SPP;SEBASTES_MARINUS;4_Fish;Fish;4;Sebastes norvegicus;Animalia;Chordata;Actinopterygii;Scorpaeniformes;Sebastidae;Sebastes;norvegicus;Sebastes norvegicus;;Species;
+SEB_MEN;SEB_SPP;SEBASTES_MENTELLA;4_Fish;Fish;4;Sebastes mentella;Animalia;Chordata;Actinopterygii;Scorpaeniformes;Sebastidae;Sebastes;mentella;Sebastes mentella;;Species;
+SEB_SPP;SEB_SPP;SEBASTES_SPP;4_Fish;Fish;4;Sebastes;Animalia;Chordata;Actinopterygii;Scorpaeniformes;Sebastidae;Sebastes;NA;Sebastes;;Genus;
+SEB_VIV;SEB_SPP;SEBASTES_VIVIPARUS;4_Fish;Fish;4;Sebastes viviparus;Animalia;Chordata;Actinopterygii;Scorpaeniformes;Sebastidae;Sebastes;viviparus;Sebastes viviparus;;Species;
+SIM_GRE;SIM_GRE;SIMILIPECTEN_GREENLANDICUS;3_Benthos;Benthos;3;Similipecten greenlandicus;Animalia;Mollusca;Bivalvia;Pectinida;Propeamussiidae;Similipecten;greenlandicus;Similipecten greenlandicus;;Species;
+SOM_MIC;SOM_MIC;SOMNIOSUS_MICROCEPHALUS;4_Fish;Fish;4;Somniosus microcephalus;Animalia;Chordata;Elasmobranchii;Squaliformes;Somniosidae;Somniosus;microcephalus;Somniosus microcephalus;;Species;
+SQU_ACA;SQU_ACA;SQUALUS_ACANTHIAS;4_Fish;Fish;4;Squalus acanthias;Animalia;Chordata;Elasmobranchii;Squaliformes;Squalidae;Squalus;acanthias;NA;;Species;
+STI_TRE;STI_TRE;STICHOPUS_TREMULUS;3_Benthos;Benthos;3;Parastichopus tremulus;Animalia;Echinodermata;Holothuroidea;Synallactida;Stichopodidae;Parastichopus;tremulus;Parastichopus tremulus;;Species;
+STRO_SP;STRO_SP;STRONGYLOCENTROTUS_SP;3_Benthos;Benthos;3;Strongylocentrotus;Animalia;Echinodermata;Echinoidea;Camarodonta;Strongylocentrotidae;Strongylocentrotus;NA;Strongylocentrotus;;Genus;
+THE_ABY;THE_SPP;THEMISTO_ABYSSORUM;2_Zooplankton;Zooplankton;2;Themisto abyssorum;Animalia;Arthropoda;Malacostraca;Amphipoda;Hyperiidae;Themisto;abyssorum;Themisto abyssorum;;Species;
+THE_LIB;THE_SPP;THEMISTO_LIBELLULA;2_Zooplankton;Zooplankton;2;Themisto libellula;Animalia;Arthropoda;Malacostraca;Amphipoda;Hyperiidae;Themisto;libellula;Themisto libellula;;Species;
+THY_INE;THY_SPP;THYSANOESSA_INERMIS;2_Zooplankton;Zooplankton;2;Thysanoessa inermis;Animalia;Arthropoda;Malacostraca;Euphausiacea;Euphausiidae;Thysanoessa;inermis;Thysanoessa inermis;;Species;
+THY_LON;THY_SPP;THYSANOESSA_LONGICAUDATA;2_Zooplankton;Zooplankton;2;Thysanoessa longicaudata;Animalia;Arthropoda;Malacostraca;Euphausiacea;Euphausiidae;Thysanoessa;longicaudata;Thysanoessa longicaudata;;Species;
+THY_RAS;THY_SPP;THYSANOESSA_RASCHII;2_Zooplankton;Zooplankton;2;Thysanoessa raschii;Animalia;Arthropoda;Malacostraca;Euphausiacea;Euphausiidae;Thysanoessa;raschii;Thysanoessa raschii;;Species;
+TRI_ESM;TRI_ESM;TRISOPTERUS_ESMARKII;4_Fish;Fish;4;Trisopterus esmarkii;Animalia;Chordata;Actinopterygii;Gadiformes;Gadidae;Trisopterus;esmarkii;Trisopterus esmarkii;;Species;
+TRI_MUR;TRI_MUR;TRIGLOPS_MURRAYI;4_Fish;Fish;4;Triglops murrayi;Animalia;Chordata;Actinopterygii;Scorpaeniformes;Cottidae;Triglops;murrayi;Triglops murrayi;Triglops;Species;
+TRI_NYB;TRI_NYB;TRIGLOPS_NYBELINI;4_Fish;Fish;4;Triglops nybelini;Animalia;Chordata;Actinopterygii;Scorpaeniformes;Cottidae;Triglops;nybelini;Triglops nybelini;Triglops;Species;
+TRI_PIN;TRI_PIN;TRIGLOPS_PINGELII;4_Fish;Fish;4;Triglops pingelii;Animalia;Chordata;Actinopterygii;Scorpaeniformes;Cottidae;Triglops;pingelii;Triglops pingelii;Triglops;Species;
+ULC_OLR;ULC_OLR;ULCINA_OLRIKII;4_Fish;Fish;4;Aspidophoroides olrikii;Animalia;Chordata;Actinopterygii;Scorpaeniformes;Agonidae;Aspidophoroides;olrikii;Aspidophoroides olrikii;;Species;
+URI_AAL;URI_AAL;URIA_AALGE;5_Seabirds;Seabirds;5;Uria aalge;Animalia;Chordata;Aves;Charadriiformes;Alcidae;Uria;aalge;Uria aalge;;Species;
+URI_LOM;URI_LOM;URIA_LOMVIA;5_Seabirds;Seabirds;5;Uria lomvia;Animalia;Chordata;Aves;Charadriiformes;Alcidae;Uria;lomvia;Uria lomvia;;Species;
+URS_MAR;URS_MAR;URSUS_MARITIMUS;6_Mammals;Mammals;6;Ursus maritimus;Animalia;Chordata;Mammalia;Carnivora;Ursidae;Ursus;maritimus;NA;;Species;
