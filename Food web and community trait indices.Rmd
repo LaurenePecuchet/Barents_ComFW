@@ -1,0 +1,229 @@
+---
+title: "Calculating food web and community metrics"
+author: "Laurene Pecuchet"
+date: '2022-06-08'
+output:
+  word_document: 
+  html_notebook: default
+  pdf_document: default
+  html_document:
+    df_print: paged
+editor_options:
+  chunk_output_type: console
+  markdown: 
+    wrap: 72
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, include=FALSE}
+library(NetIndices)
+library(reshape2)
+library(igraph)
+library(vegan)
+library(tidyverse)
+library(dggridR)
+library(gridExtra)
+library(Hmisc)
+
+
+#Construct a global grid with cells approximately 1000 miles across
+dggs          <- dgconstruct(res=7, metric=FALSE, resround='down')
+
+
+```
+
+## Demersal community and Food web (data preparation)
+
+### Assembling community per grid cell
+
+For each grid cell we will calculate community and food web metrics
+based on the fish and megabenthos trophospecies presence and biomass in
+the bottom-trawl survey (communities). The first step is to do sampling
+effort standardization by assembling communities per grid cell from a
+random draw of 10 sampled hauls made in the period 2009-2017, iterated
+100 times (i.e., spatial snapshot without temporal consideration). 
+Raw data is not available for this calculation due to data restrictions.
+
+```{r Metacommunities, eval=F, include=F}
+com_fw<-communities 
+head(communities)#"communities" is the data.frame of randomly assembled communities
+com_fw<-merge(com_fw, name_survey[,c("ABBREV_SIMPL","ScientificName")], by.x="variable", by.y="ScientificName")
+com_fw<-com_fw %>% group_by(cell, ABBREV_SIMPL, iter) %>% dplyr::summarise(biomass=sum(bio, na.rm=T))
+head(com_fw) #"com_fw" is the summed biomass per taxon per iteration and cell, with a standardized name matching between the surveys and the food web. This is the "community composition" dataframe that is used to calculate spatial community and food web metrics.
+
+save(com_fw, file="Results/metacommunities1000_fw.Rdata")
+```
+
+## Calculate metrics: Communities and Food web
+
+### Traits: size, generality, trophic level, omnivory
+
+```{r, Traits spatially fixed}
+TS_traits<-read.table("Data/traits_prop.csv", header=T, sep=";")
+TS_traits[!TS_traits$Group=="Fish",]$Group<-"Benthic.invertebrates"
+traits_m<-TS_traits %>% group_by(ABBREV_SIMPL) %>% dplyr::summarise(Size=mean(continuous_cm, na.rm=T),
+                                                                 Group=unique(Group))
+traits_feed<-data.frame(ABBREV_SIMPL=rownames(TrophInd(fw_new)), TrophInd(fw_new), Gen=colSums(fw_new))
+
+traits_m<-merge(traits_feed, traits_m, by="ABBREV_SIMPL", all.x=T)
+traits_m$Size.log<-log(traits_m$Size+1)
+hist(traits_m$Size, main="Size (cm)")
+hist(traits_m$Size.log, main="Size log-transformed log(cm)")
+
+species_list<-merge(trophind_qual, traits_m, by.x="species", by.y="ABBREV_SIMPL")
+#write.table(species_list, "Specieslist_traits.csv", sep=";")
+
+```
+
+How well are the bentho-demersal communities represented by the food web? We calculate and map per grid cell the % of the individuals sampled the were included in the food web. (Raw data is not available for this calculation due to data restrictions)
+
+```{r, eval=F}
+load("Results/com_data1000.Rdata")
+head(communities)
+
+communities<-merge(communities, name_survey[,c("ABBREV_SIMPL","ScientificName")], by.x="variable", by.y="ScientificName", all.x=T)
+
+com.NA<-communities %>% filter(is.na(ABBREV_SIMPL)) %>% group_by(cell, ABBREV_SIMPL, with.dml, iter) %>% dplyr::summarise(bio.NA=sum(bio, na.rm=T))
+
+com.Info<-communities %>% filter(!is.na(ABBREV_SIMPL)) %>% group_by(cell, with.dml, iter) %>% dplyr::summarise(bio.Info=sum(bio, na.rm=T))
+
+com.NA<-left_join(com.Info,com.NA)
+com.NA$percInfo<-(1-com.NA$bio.NA/(com.NA$bio.Info+com.NA$bio.NA))*100
+
+com.NA<-com.NA%>% group_by(cell, with.dml) %>%  dplyr::summarise(percInfo5=ci(percInfo)$CI_low,percInfo95=ci(percInfo)$CI_high,
+  percInfo=median(percInfo, na.rm=T))
+
+com.NA[is.na(com.NA$percInfo),]$percInfo<-100
+## If NA = 100% sampled individuals included in the food web
+
+com.NA.F<-com.NA %>% filter(with.dml==1)
+summary(com.NA.F)
+
+#Get the grid cell boundaries
+grid0          <- dgcellstogrid(dggs,com.NA.F$cell,frame=TRUE,wrapcells=TRUE)
+grid          <- merge(grid0,com.NA.F,by.x="cell",by.y="cell")
+
+p1<-plot.fw(grid$percInfo, "")+ ggtitle("a) Fish")
+
+com.NA.B<-com.NA %>% filter(with.dml==0)
+summary(com.NA.B)
+
+#Get the grid cell boundaries
+grid0          <- dgcellstogrid(dggs,com.NA.B$cell,frame=TRUE,wrapcells=TRUE)
+grid1          <- merge(grid0,com.NA.B,by.x="cell",by.y="cell")
+
+p2<-plot.fw(grid1$percInfo, "")+ ggtitle("b) Benthos")
+
+tiff("Results/PercIndiv.tiff", width=20, height=10, units="cm", res=400)
+grid.arrange(p1, p2, ncol=2)
+dev.off()
+
+```
+
+Biomass is log transformed before calculating CWM feeding and size
+traits Biomass is not log-transformed for calculating the Biomass
+evenness and the total biomass The trait "Size" is also log-transformed
+due to right-skewness
+
+We calculate multiple community and food web metrics for each assembled
+communities per grid cell and iteration (=100 assembled communities \*
+60 grid cell). At the community level, we calculate biomass-weighted
+indices of: total biomass, biomass eveness, biomass ratio
+fish/invertebrates and community mean and variance of body size, trophic
+level, omnivory and generality. At the food web level, we calculate
+unweighted (i.e., presence-based) food web properties of number of taxa,
+number of links, link density, connectance, modularity, mean chain
+length, nestedness
+
+Species' communities data is not available for this calculation due to data restrictions.
+
+```{r, eval=FALSE}
+is.nan.data.frame <- function(x) do.call(cbind, lapply(x, is.nan))
+
+load("Results/metacommunities1000_fw.Rdata")
+
+com_fw$bio.log<-log(com_fw$biomass+1)
+com_fw<-com_fw %>% dplyr::filter(!is.na(ABBREV_SIMPL))
+
+#fw.sp<-data.frame()
+
+for(s in unique(com_fw$cell)){ 
+  print(s) 
+    for (i in 1:100){ # here stop at 100 iterations only to speed the calculations, can change to 1000
+      print(i)
+      
+com<-subset(com_fw, cell==s&iter==i)
+
+### Community-level indices
+
+## Biomass metrics, relevant for ecosystem functions
+# Biomass evenness 
+bioE=vegan::diversity(com$biomass, index="simpson") # Biomass evenness using the simpson index
+# Total biomass
+totbio<-sum(com$biomass, na.rm=T)
+# Proportion fish to benthos
+com_tr<-left_join(com,traits_m)
+BF<-com_tr %>% group_by(Group) %>% dplyr::summarise(bio=sum(biomass, na.rm = T)) %>% pivot_wider(names_from = Group, values_from = bio)
+FB<-BF$Fish/BF$Benthic.invertebrates
+
+## Trait metrics (Community weighted mean and variance of traits) -> log transformed, relevant for community composition and diversity
+# Trophic level
+TL.var<-sqrt(wtd.var(as.vector(com_tr$TL), weights= com_tr$bio.log/sum(com_tr$bio.log),method="ML", na.rm=T, normwt=T))
+TL<- wtd.mean(as.vector(com_tr$TL), weights= com_tr$bio.log/sum(com_tr$bio.log))
+# Omnivory
+OI.var<-sqrt(wtd.var(as.vector(com_tr$OI), weights= com_tr$bio.log/sum(com_tr$bio.log),method="ML", na.rm=T, normwt=T))
+OI<- wtd.mean(as.vector(com_tr$OI), weights= com_tr$bio.log/sum(com_tr$bio.log))
+# Generality
+Gen.var<-sqrt(wtd.var(as.vector(com_tr$Gen), weights= com_tr$bio.log/sum(com_tr$bio.log),method="ML", na.rm=T, normwt=T))
+Gen<- wtd.mean(as.vector(com_tr$Gen), weights= com_tr$bio.log/sum(com_tr$bio.log))
+# Body size
+Sizelog.var<-sqrt(wtd.var(as.vector(com_tr$Size.log), weights= com_tr$bio.log/sum(com_tr$bio.log),method="ML", na.rm=T, normwt=T))
+Sizelog<- wtd.mean(as.vector(com_tr$Size.log), weights= com_tr$bio.log/sum(com_tr$bio.log))
+
+### Food web properties
+      if(dim(com)[1]>0)
+      {
+       ## Obtain the local food web from the metaweb
+       fw<-fw_new[rownames(fw_new)%in%c(as.character(com$ABBREV_SIMPL),"Zooplankton","Phytoplankton","DET_IND"),]
+       fw<-fw[,colnames(fw)%in%c(as.character(com$ABBREV_SIMPL),"Zooplankton","Phytoplankton","DET_IND")]
+
+      ### Get rid of unconnected species (species with neither preys or predators)
+      el<-intersect(rownames(fw[rowSums(fw)==0,]),colnames(fw[,colSums(fw)==0]))
+      fw<-fw[!rownames(fw)%in%el,]
+      fw<-fw[,!colnames(fw)%in%el]
+
+pfw<-fw
+pfw[pfw>0]<-1 # Presence based indices, all positive biomass>0 become "present" = 1
+# Number of species
+Nspp<-dim(pfw)[1]
+# Number of links
+Nlinks<-sum(pfw)
+# Link density
+LD<-Nlinks/Nspp
+
+# Connectance : nb links/(nb nodes^2)
+Conn<-sum(pfw)/dim(pfw)[1]^2
+
+# Nestedness
+nested<-nestednodf(pfw)$statistic[3]
+
+# Modularity
+fwig<-graph.adjacency(as.matrix(pfw))       # igraph formatted foodwebs
+spingc <- tryCatch(spinglass.community(fwig), error=function(err) NA) # modularity foodweb
+modul  <- tryCatch(spingc$modularity, error=function(err) NA) # modularity as defined by Newman and Girvan
+
+# Mean shortest path
+meanChain<- mean_distance(fwig)
+
+fw.sp<-rbind(fw.sp,data.frame(cell=s, iter=i, nodes=Nspp, links=Nlinks, Connect=Conn, nested=nested,  modul=modul,  meanChain=meanChain,  Sizelog.sd=Sizelog.var, Sizelog=Sizelog,TL.sd=TL.var, TL=TL, OI.sd=OI.var, OI=OI,LD=LD, Gen.sd=Gen.var, Gen=Gen, bioE=bioE, totbio=totbio, BF, FB=FB))
+
+}
+  }
+} 
+
+save(fw.sp, file="Results/ComFW.spatial.Rdata")
+
+```
